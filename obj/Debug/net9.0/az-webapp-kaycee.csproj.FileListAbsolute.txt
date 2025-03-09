@@ -102,7 +102,6 @@
 /home/kaycee/repos/az-webapp-kaycee/bin/Debug/net9.0/publish/az-webapp-kaycee.runtimeconfig.json
 /home/kaycee/repos/az-webapp-kaycee/bin/Debug/net9.0/publish/az-webapp-kaycee.staticwebassets.endpoints.json
 /home/kaycee/repos/az-webapp-kaycee/obj/Debug/net9.0/az-webapp-kaycee.sourcelink.json
-/home/kaycee/repos/az-webapp-kaycee/bin/Debug/net9.0/Newtonsoft.Json.dll
 /home/kaycee/repos/az-webapp-kaycee/obj/Debug/net9.0/az-webapp-kaycee.csproj.AssemblyReference.cache
 /home/kaycee/repos/az-webapp-kaycee/obj/Debug/net9.0/az-webap.5885077D.Up2Date
 /home/kaycee/repos/az-webapp-kaycee/bin/Debug/net9.0/Microsoft.ApplicationInsights.dll
