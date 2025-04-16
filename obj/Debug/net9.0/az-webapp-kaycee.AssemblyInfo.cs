@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("az-webapp-kaycee")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53ef941734afbb3fd0e1e351df85150b7c2c3fc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9af4b18d1928b63d5f99760ee5449a0b26dce698")]
 [assembly: System.Reflection.AssemblyProductAttribute("az-webapp-kaycee")]
 [assembly: System.Reflection.AssemblyTitleAttribute("az-webapp-kaycee")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
