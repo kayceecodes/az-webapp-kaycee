@@ -1,10 +1,16 @@
+using az_webapp_kaycee.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+var conn = builder.Configuration.GetConnectionString("AzureSqlConnection");
 
 builder.Services.AddApplicationInsightsTelemetry();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+builder.Services.AddDbContext<AppDbContext>(
+    options => options.UseSqlServer(conn));
 
 var app = builder.Build();
 

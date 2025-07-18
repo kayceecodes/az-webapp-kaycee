@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ed6f5a08-a40c-4e81-9a67-13419a30276d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("az-webapp-kaycee")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1404360b8ae0c33bc7fb37cb553bea369ebc3ccc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1daf6e55b9213d0c28593b078adf14ff576bf47b")]
 [assembly: System.Reflection.AssemblyProductAttribute("az-webapp-kaycee")]
 [assembly: System.Reflection.AssemblyTitleAttribute("az-webapp-kaycee")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
