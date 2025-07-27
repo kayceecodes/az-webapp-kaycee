@@ -1,7 +1,0 @@
-/home/kaycee/repos/az-webapp-kaycee/publish/az-webapp-kaycee
-/home/kaycee/repos/az-webapp-kaycee/publish/appsettings.Development.json
-/home/kaycee/repos/az-webapp-kaycee/publish/appsettings.json
-/home/kaycee/repos/az-webapp-kaycee/publish/az-webapp-kaycee.dll
-/home/kaycee/repos/az-webapp-kaycee/publish/az-webapp-kaycee.deps.json
-/home/kaycee/repos/az-webapp-kaycee/publish/az-webapp-kaycee.runtimeconfig.json
-/home/kaycee/repos/az-webapp-kaycee/publish/az-webapp-kaycee.pdb
