@@ -5,11 +5,21 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>az_webapp_kaycee</RootNamespace>
+    <UserSecretsId>ed6f5a08-a40c-4e81-9a67-13419a30276d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
   </ItemGroup>
 
 </Project>

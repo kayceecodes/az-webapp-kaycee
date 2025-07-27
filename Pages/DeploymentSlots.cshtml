@@ -1,0 +1,21 @@
+@page "/DeploymentSlots";
+@model DeploymentSlotsModel;
+
+@{
+    ViewData["Title"] = "Deployment Slots";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Deployment Slots</h1>
+    <p>Here is your hosted project in <strong>Azure</strong></p>
+    <div>
+        @ViewData["Greeting"]
+    </div>
+    <div>
+        <h2>Deployment Slots</h2>
+        <p>Deployment slots allow you to host multiple versions of your application in the same App Service. You can use this feature to test new versions of your application before swapping them into production.</p>
+        <p>To create a deployment slot, go to the Azure portal, select your App Service, and click on "Deployment slots". From there, you can create a new slot and deploy your application to it.</p>
+        <p>Once you have created a deployment slot, you can swap it with your production slot. This allows you to test your application in the new slot before making it live.</p>
+        <p>For more information on deployment slots, check out the <a href="https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots">Azure documentation</a>.</p>
+    </div>
+</div>
