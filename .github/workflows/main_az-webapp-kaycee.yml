@@ -21,7 +21,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x'
+          dotnet-version: '9.x'
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
@@ -38,9 +38,6 @@ jobs:
   deploy:
     runs-on: windows-latest
     needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
       id-token: write #This is required for requesting the JWT
       contents: read #This is required for actions/checkout
@@ -54,9 +51,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_5BDCAF27E52F49ACAAB6052C0AFAFA0C }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E0B30756F1DB401E8370C80A719CF796 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_D0434C165A99439F98BA9DED802023AC }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_1673DD8744BB4B3D8ADD1B5C1BE19ABF }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E6FA9355109C42268B1B3561AA935104 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_BD32419B77DE4E3D9D172A7B97F48F8D }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
